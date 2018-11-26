@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <!--    <com.example.silence.myapplication.MyPatternLockView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:point_radius="18dp"
+            app:line_width="5dp"/>-->
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true">
+        <com.library.yuliang.luckplateview.widget.LuckPlateView
+            android:id="@+id/plateViewNew"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/startIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_luck_click"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
